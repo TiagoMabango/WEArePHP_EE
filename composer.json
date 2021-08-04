@@ -1,0 +1,27 @@
+{
+  "name": "tiago/mabango",
+  "description": "Componente  EE",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Tigao Mabango",
+      "email": "tiagaomabango@gmail.com.br",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php",
+      "source/Support/Helpers.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "~6.0"
+  }
+}
